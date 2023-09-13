@@ -65,3 +65,40 @@ h3 {
     font-weight: 700;
     line-height: 28px;
 }
+/*#region-----HEADER-----*/
+.header__container {
+    margin: 41px 135px 0px 135px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Manrope;
+    font-weight: 600;
+}
+.header__logo {
+    margin-right: 177px;
+}
+.header__menu__list {
+    display: flex;
+}
+.menu__item {
+    margin-right: 51px;
+}
+.menu__link {
+    color: inherit;
+}
+.desktop__hidden {
+    position: absolute;
+    visibility: hidden;
+}
+.header__button {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FD695A;
+    color: white;
+}
+/*#endregion*/
