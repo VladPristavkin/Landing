@@ -1,0 +1,67 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+html {
+    background: linear-gradient(to right, #f8f8f8, #f4f4f4);
+}
+body {
+    margin: 0px auto;
+    width: 1440px;
+	background: linear-gradient(to right, #f8f8f8, #f4f4f4);
+	font-size: 16px;
+    line-height: 26px;
+	color: #3d3d3f; 
+}
+.wrapper {
+    display: flex;
+	flex-direction: column;
+    min-height: 100%;
+	overflow: hidden;
+}
+section {
+    margin: 0px 135px;
+}
+h2 {
+    margin-bottom: 16px;
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FD695A;
+}
+h3 {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FD695A;
+    color: white;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
