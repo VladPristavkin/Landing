@@ -283,7 +283,37 @@ h1 span{
     text-decoration: underline;
 }
 /*#endregion*/
-
+/*#region-----ABOUT US-----*/
+.about__us {
+    margin-top: 74px;
+    margin-bottom: -527px;
+}
+.about__us__header {
+    margin-top: 204px;
+}
+.about__us__title {
+    max-width: 489px;
+}
+.about__us__body {
+    margin-top: 15px;
+}
+.about__us__text {
+    margin-top: 31px;
+    margin-bottom: 28px;
+    max-width: 507px;
+    font-family: Mulish;
+    font-weight: 600;
+}
+.about__us__button {
+    width: 174px;
+    height: 50px;
+}
+.about__us__image {
+    position: relative;
+    top:-527px;
+    left: 571px;
+}
+/*#endregion*/
 
 
 
