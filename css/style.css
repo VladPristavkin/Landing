@@ -205,7 +205,84 @@ h1 span{
     margin-right: 100px;
 }
 /*#endregion*/
-
+/*#region-----WHAT WE DO-----*/
+.what__we__do {
+    margin-top: 120px;
+    margin-bottom: -420px;
+}
+.what__we__do__body {
+    margin-top: 31px;
+    align-self: center;
+    margin-right: 56px;
+}
+.what__we__do__header {
+    margin-top: 230px;
+}
+.what__we__do__title {
+    max-width: 504px;
+}
+.title_and_rocket__block img {
+    position: relative;
+    right: 105px;
+    top: 27px;
+}
+.title_and_rocket__block {
+    display: flex;
+}
+.what__we__do__text {
+    margin-bottom: 28px;
+    max-width: 507px;
+    font-family: Mulish;
+    font-weight: 600;
+}
+.what__we__do__button {
+    width: 203px;
+    height: 50px;
+}
+.what__we__do__cards {
+    position: relative;
+    top: -462px;
+    left: 600px;
+    display: grid;
+    grid-template-columns: 269px 269px;
+    grid-template-rows: 269px 269px;
+    gap: 32px;
+}
+.card__block {
+    padding: 32px 25px 29px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px 0px rgba(44, 22, 84, 0.01);
+}
+.card__block img {
+    margin-bottom: 17px;
+}
+.card__block__title {
+    margin-bottom: 8px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.card__block__text {
+    margin-bottom: 12px;
+    font-family: DM Sans;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #747474;
+}
+.card__block__link {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    color: #3D3D3F;
+    text-decoration: underline;
+}
+/*#endregion*/
 
 
 
