@@ -177,7 +177,34 @@ h1 span{
     color: #FD695A;
 }
 /*#endregion*/
-
+/*#region-----TRUSTED CLIENTS-----*/
+.trusted__clients {
+    margin-top: 59px;
+}
+.trusted__clients__container {
+    display: flex;
+    flex-direction: column;
+}
+.trusted__clients__title {
+    margin-left: -27px;
+    margin-bottom: 0px;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 800;
+    color: #3d3d3f;
+}
+.clients__list {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.clients__item {
+    margin-right: 100px;
+}
+/*#endregion*/
 
 
 
